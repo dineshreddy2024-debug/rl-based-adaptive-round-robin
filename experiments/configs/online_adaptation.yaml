@@ -1,0 +1,5 @@
+seed: 42
+episodes: 50
+switch_after: 10
+first_workload: short_cpu
+second_workload: batch

@@ -1,0 +1,121 @@
+metric,scheduler_1,scheduler_2,adjusted_p_value,significance
+waiting_time,D3QN_RR,Dynamic_RR,0.0002070375762184,Significant
+waiting_time,D3QN_RR,FCFS,0.2724619580929413,Not significant
+waiting_time,D3QN_RR,Fixed_RR,1.205086746105416e-05,Significant
+waiting_time,D3QN_RR,SJF,5.864559894914608e-10,Significant
+waiting_time,DDQN_RR,Dynamic_RR,0.000325682141869,Significant
+waiting_time,DDQN_RR,FCFS,0.2724619580929413,Not significant
+waiting_time,DDQN_RR,Fixed_RR,1.9766516888882265e-05,Significant
+waiting_time,DDQN_RR,SJF,5.864559894914608e-10,Significant
+waiting_time,DQN_RR,Dynamic_RR,0.0005744832874526,Significant
+waiting_time,DQN_RR,FCFS,0.2724619580929413,Not significant
+waiting_time,DQN_RR,Fixed_RR,1.5129546791928976e-05,Significant
+waiting_time,DQN_RR,SJF,5.864559894914608e-10,Significant
+waiting_time,Dynamic_RR,PPO_RR,0.0783095147544425,Not significant
+waiting_time,Dynamic_RR,Q_Learning_RR,0.0258424771557799,Significant
+waiting_time,FCFS,PPO_RR,2.354011261294614e-05,Significant
+waiting_time,FCFS,Q_Learning_RR,1.0,Not significant
+waiting_time,Fixed_RR,PPO_RR,5.798210862980378e-05,Significant
+waiting_time,Fixed_RR,Q_Learning_RR,9.072372663450167e-09,Significant
+waiting_time,PPO_RR,SJF,5.864559894914608e-10,Significant
+waiting_time,Q_Learning_RR,SJF,5.864559894914608e-10,Significant
+turnaround_time,D3QN_RR,Dynamic_RR,0.0001574894462506,Significant
+turnaround_time,D3QN_RR,FCFS,0.2136272310408403,Not significant
+turnaround_time,D3QN_RR,Fixed_RR,1.2956802966128033e-05,Significant
+turnaround_time,D3QN_RR,SJF,5.862719458663942e-10,Significant
+turnaround_time,DDQN_RR,Dynamic_RR,0.0003480370896142,Significant
+turnaround_time,DDQN_RR,FCFS,0.222963375764005,Not significant
+turnaround_time,DDQN_RR,Fixed_RR,1.7602101742216674e-05,Significant
+turnaround_time,DDQN_RR,SJF,5.862719458663942e-10,Significant
+turnaround_time,DQN_RR,Dynamic_RR,0.000443271524648,Significant
+turnaround_time,DQN_RR,FCFS,0.222963375764005,Not significant
+turnaround_time,DQN_RR,Fixed_RR,1.2956802966128033e-05,Significant
+turnaround_time,DQN_RR,SJF,5.862719458663942e-10,Significant
+turnaround_time,Dynamic_RR,PPO_RR,0.0724129002430392,Not significant
+turnaround_time,Dynamic_RR,Q_Learning_RR,0.004055505757892,Significant
+turnaround_time,FCFS,PPO_RR,3.004014166554256e-05,Significant
+turnaround_time,FCFS,Q_Learning_RR,1.0,Not significant
+turnaround_time,Fixed_RR,PPO_RR,6.688513320012998e-05,Significant
+turnaround_time,Fixed_RR,Q_Learning_RR,4.6635365579977926e-09,Significant
+turnaround_time,PPO_RR,SJF,5.862719458663942e-10,Significant
+turnaround_time,Q_Learning_RR,SJF,1.352261594008426e-09,Significant
+response_time,D3QN_RR,Dynamic_RR,1.0,Not significant
+response_time,D3QN_RR,FCFS,5.4867065533171106e-09,Significant
+response_time,D3QN_RR,Fixed_RR,3.1914815928229003e-09,Significant
+response_time,D3QN_RR,SJF,0.9801503429100248,Not significant
+response_time,DDQN_RR,Dynamic_RR,1.0,Not significant
+response_time,DDQN_RR,FCFS,1.0469947034092788e-08,Significant
+response_time,DDQN_RR,Fixed_RR,1.0469947034092788e-08,Significant
+response_time,DDQN_RR,SJF,1.0,Not significant
+response_time,DQN_RR,Dynamic_RR,1.0,Not significant
+response_time,DQN_RR,FCFS,7.706891763561218e-09,Significant
+response_time,DQN_RR,Fixed_RR,2.830259914202099e-07,Significant
+response_time,DQN_RR,SJF,1.0,Not significant
+response_time,Dynamic_RR,PPO_RR,1.0,Not significant
+response_time,Dynamic_RR,Q_Learning_RR,5.863639610753117e-10,Significant
+response_time,FCFS,PPO_RR,2.187004552097888e-07,Significant
+response_time,FCFS,Q_Learning_RR,5.863639610753117e-10,Significant
+response_time,Fixed_RR,PPO_RR,2.8792614625675013e-09,Significant
+response_time,Fixed_RR,Q_Learning_RR,5.863639610753117e-10,Significant
+response_time,PPO_RR,SJF,1.0,Not significant
+response_time,Q_Learning_RR,SJF,5.863639610753117e-10,Significant
+context_switches,D3QN_RR,Dynamic_RR,4.814024953882439e-09,Significant
+context_switches,D3QN_RR,FCFS,1.448843511650353e-07,Significant
+context_switches,D3QN_RR,Fixed_RR,2.412001356626562e-09,Significant
+context_switches,D3QN_RR,SJF,1.448843511650353e-07,Significant
+context_switches,DDQN_RR,Dynamic_RR,1.439156158842944e-09,Significant
+context_switches,DDQN_RR,FCFS,3.3340317888285455e-08,Significant
+context_switches,DDQN_RR,Fixed_RR,2.627666561172806e-09,Significant
+context_switches,DDQN_RR,SJF,3.3340317888285455e-08,Significant
+context_switches,DQN_RR,Dynamic_RR,8.87219250088083e-09,Significant
+context_switches,DQN_RR,FCFS,4.29553833595742e-08,Significant
+context_switches,DQN_RR,Fixed_RR,6.711895847150123e-09,Significant
+context_switches,DQN_RR,SJF,4.29553833595742e-08,Significant
+context_switches,Dynamic_RR,PPO_RR,2.627666561172806e-09,Significant
+context_switches,Dynamic_RR,Q_Learning_RR,5.292283156302592e-08,Significant
+context_switches,FCFS,PPO_RR,3.354407477596487e-07,Significant
+context_switches,FCFS,Q_Learning_RR,5.336328279836631e-10,Significant
+context_switches,Fixed_RR,PPO_RR,2.627666561172806e-09,Significant
+context_switches,Fixed_RR,Q_Learning_RR,3.151171229849184e-06,Significant
+context_switches,PPO_RR,SJF,3.354407477596487e-07,Significant
+context_switches,Q_Learning_RR,SJF,5.336328279836631e-10,Significant
+cpu_utilization,D3QN_RR,Dynamic_RR,5.638783151595016e-05,Significant
+cpu_utilization,D3QN_RR,FCFS,5.638783151595016e-05,Significant
+cpu_utilization,D3QN_RR,Fixed_RR,5.638783151595016e-05,Significant
+cpu_utilization,D3QN_RR,SJF,5.638783151595016e-05,Significant
+cpu_utilization,DDQN_RR,Dynamic_RR,0.0001008317138933,Significant
+cpu_utilization,DDQN_RR,FCFS,0.0001008317138933,Significant
+cpu_utilization,DDQN_RR,Fixed_RR,0.0001008317138933,Significant
+cpu_utilization,DDQN_RR,SJF,0.0001008317138933,Significant
+cpu_utilization,DQN_RR,Dynamic_RR,0.0001008317138933,Significant
+cpu_utilization,DQN_RR,FCFS,0.0001008317138933,Significant
+cpu_utilization,DQN_RR,Fixed_RR,0.0001008317138933,Significant
+cpu_utilization,DQN_RR,SJF,0.0001008317138933,Significant
+cpu_utilization,Dynamic_RR,PPO_RR,0.0001821529714896,Significant
+cpu_utilization,Dynamic_RR,Q_Learning_RR,7.427650177188482e-06,Significant
+cpu_utilization,FCFS,PPO_RR,0.0001821529714896,Significant
+cpu_utilization,FCFS,Q_Learning_RR,7.427650177188482e-06,Significant
+cpu_utilization,Fixed_RR,PPO_RR,0.0001821529714896,Significant
+cpu_utilization,Fixed_RR,Q_Learning_RR,7.427650177188482e-06,Significant
+cpu_utilization,PPO_RR,SJF,0.0001821529714896,Significant
+cpu_utilization,Q_Learning_RR,SJF,7.427650177188482e-06,Significant
+throughput,D3QN_RR,Dynamic_RR,1.7377008015675552e-08,Significant
+throughput,D3QN_RR,FCFS,1.7377008015675552e-08,Significant
+throughput,D3QN_RR,Fixed_RR,1.7377008015675552e-08,Significant
+throughput,D3QN_RR,SJF,1.7377008015675552e-08,Significant
+throughput,DDQN_RR,Dynamic_RR,2.282293663089453e-08,Significant
+throughput,DDQN_RR,FCFS,2.282293663089453e-08,Significant
+throughput,DDQN_RR,Fixed_RR,2.282293663089453e-08,Significant
+throughput,DDQN_RR,SJF,2.282293663089453e-08,Significant
+throughput,DQN_RR,Dynamic_RR,1.7377008015675552e-08,Significant
+throughput,DQN_RR,FCFS,1.7377008015675552e-08,Significant
+throughput,DQN_RR,Fixed_RR,1.7377008015675552e-08,Significant
+throughput,DQN_RR,SJF,1.7377008015675552e-08,Significant
+throughput,Dynamic_RR,PPO_RR,1.139743247930498e-06,Significant
+throughput,Dynamic_RR,Q_Learning_RR,4.887900259304574e-10,Significant
+throughput,FCFS,PPO_RR,1.139743247930498e-06,Significant
+throughput,FCFS,Q_Learning_RR,4.887900259304574e-10,Significant
+throughput,Fixed_RR,PPO_RR,1.139743247930498e-06,Significant
+throughput,Fixed_RR,Q_Learning_RR,4.887900259304574e-10,Significant
+throughput,PPO_RR,SJF,1.139743247930498e-06,Significant
+throughput,Q_Learning_RR,SJF,4.887900259304574e-10,Significant

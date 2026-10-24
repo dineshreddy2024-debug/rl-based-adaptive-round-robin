@@ -1,0 +1,98 @@
+{
+    "experiment": "scheduler_comparison",
+    "workload": {
+        "num_processes": 20,
+        "type": "stress",
+        "seed": 46
+    },
+    "schedulers": {
+        "FCFS": {
+            "waiting_time": 78.1,
+            "turnaround_time": 88.9,
+            "response_time": 78.1,
+            "context_switches": 19,
+            "cpu_utilization": 99.53917050691244,
+            "throughput": 0.09216589861751152
+        },
+        "SJF": {
+            "waiting_time": 55.85,
+            "turnaround_time": 66.65,
+            "response_time": 55.85,
+            "context_switches": 19,
+            "cpu_utilization": 99.53917050691244,
+            "throughput": 0.09216589861751152
+        },
+        "Fixed_RR": {
+            "waiting_time": 104.35,
+            "turnaround_time": 115.15,
+            "response_time": 29.4,
+            "context_switches": 59,
+            "cpu_utilization": 99.53917050691244,
+            "throughput": 0.09216589861751152
+        },
+        "Dynamic_RR": {
+            "waiting_time": 94.9,
+            "turnaround_time": 105.7,
+            "response_time": 55.25,
+            "context_switches": 30,
+            "cpu_utilization": 99.53917050691244,
+            "throughput": 0.09216589861751152,
+            "quantum": 10
+        },
+        "Q_Learning_RR": {
+            "time": 153,
+            "completed": 20,
+            "n": 20,
+            "waiting_time": 68.5,
+            "turnaround_time": 73.55,
+            "response_time": 8.1,
+            "context_switches": 113,
+            "cpu_utilization": 99.34640522875817,
+            "throughput": 0.13071895424836602
+        },
+        "DQN_RR": {
+            "time": 184,
+            "completed": 20,
+            "n": 20,
+            "waiting_time": 92.95,
+            "turnaround_time": 102.45,
+            "response_time": 48.8,
+            "context_switches": 26,
+            "cpu_utilization": 99.45652173913044,
+            "throughput": 0.10869565217391304
+        },
+        "DDQN_RR": {
+            "time": 178,
+            "completed": 20,
+            "n": 20,
+            "waiting_time": 91.25,
+            "turnaround_time": 100.9,
+            "response_time": 45.15,
+            "context_switches": 26,
+            "cpu_utilization": 99.43820224719101,
+            "throughput": 0.11235955056179775
+        },
+        "D3QN_RR": {
+            "time": 186,
+            "completed": 20,
+            "n": 20,
+            "waiting_time": 90.9,
+            "turnaround_time": 100.55,
+            "response_time": 46.95,
+            "context_switches": 27,
+            "cpu_utilization": 99.46236559139786,
+            "throughput": 0.10752688172043011
+        },
+        "PPO_RR": {
+            "time": 184,
+            "completed": 20,
+            "n": 20,
+            "waiting_time": 91.0,
+            "turnaround_time": 101.5,
+            "response_time": 45.8,
+            "context_switches": 25,
+            "cpu_utilization": 99.45652173913044,
+            "throughput": 0.10869565217391304
+        }
+    }
+}

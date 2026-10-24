@@ -1,0 +1,43 @@
+{
+    "experiment": "baseline_comparison",
+    "workload": {
+        "num_processes": 20,
+        "type": "mixed",
+        "seed": 42
+    },
+    "schedulers": {
+        "FCFS": {
+            "waiting_time": 53.95,
+            "turnaround_time": 60.15,
+            "response_time": 53.95,
+            "context_switches": 19,
+            "cpu_utilization": 100.0,
+            "throughput": 0.16129032258064516
+        },
+        "SJF": {
+            "waiting_time": 35.25,
+            "turnaround_time": 41.45,
+            "response_time": 35.25,
+            "context_switches": 19,
+            "cpu_utilization": 100.0,
+            "throughput": 0.16129032258064516
+        },
+        "Fixed_RR": {
+            "waiting_time": 62.55,
+            "turnaround_time": 68.75,
+            "response_time": 30.15,
+            "context_switches": 37,
+            "cpu_utilization": 100.0,
+            "throughput": 0.16129032258064516
+        },
+        "Dynamic_RR": {
+            "waiting_time": 65.0,
+            "turnaround_time": 71.2,
+            "response_time": 34.95,
+            "context_switches": 33,
+            "cpu_utilization": 100.0,
+            "throughput": 0.16129032258064516,
+            "quantum": 5
+        }
+    }
+}

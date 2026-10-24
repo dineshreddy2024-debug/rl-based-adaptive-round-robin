@@ -1,0 +1,13 @@
+workload_type,scheduler,overall_rank_score
+batch,DDQN_RR,2.0
+bursty,PPO_RR,2.3333333333333335
+heavy_tail,Q_Learning_RR,2.3333333333333335
+high_arrival,Q_Learning_RR,2.0
+interactive,DDQN_RR,2.3333333333333335
+long_cpu,D3QN_RR,2.3333333333333335
+low_arrival,D3QN_RR,2.0
+mixed,D3QN_RR,2.0
+priority_mixed,D3QN_RR,2.3333333333333335
+short_cpu,D3QN_RR,2.5
+stress,Q_Learning_RR,2.3333333333333335
+uniform,D3QN_RR,2.1666666666666665

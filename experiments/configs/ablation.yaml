@@ -1,0 +1,3 @@
+seed: 42
+episodes: 100
+remove_reward_terms: []

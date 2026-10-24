@@ -1,0 +1,7 @@
+metric,best_scheduler,mean,std
+waiting_time,SJF,43.65333333333333,33.5739594241196
+turnaround_time,SJF,50.9325,37.535536636542446
+response_time,Q_Learning_RR,10.506666666666666,6.372115277311345
+context_switches,FCFS,19.0,0.0
+cpu_utilization,Dynamic_RR,99.35074020946948,0.8036773076355096
+throughput,Q_Learning_RR,0.24214631563999628,0.13316899983681685

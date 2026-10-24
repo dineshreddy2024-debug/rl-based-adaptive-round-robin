@@ -1,0 +1,6 @@
+seed: 42
+episodes: 300
+workload_n: 20
+workload_type: mixed
+quanta: [1, 2, 4, 6, 8, 10, 12]
+agent: q_learning

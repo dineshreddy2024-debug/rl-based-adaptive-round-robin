@@ -1,0 +1,4 @@
+seed: 42
+train_types: [short_cpu, mixed, batch]
+test_types: [interactive, stress, heavy_tail]
+episodes: 100
